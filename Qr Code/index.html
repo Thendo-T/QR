@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /*This class gives the card it's shape,size,color and potition*/
+    .attribution { 
+      font-size: 15px;
+      text-align: center;
+      background-color: hsl(0, 0%, 100%);
+      width: 320px;
+       border: 1px solid hsl(0, 0%, 100%);
+       border-radius: 15px;
+       margin: 100px 5px;
+       padding: 4px;
+       position: absolute;
+       left: 40%;
+     }
+     /*This class is responsible for moving the card away from the fixed position at the top of the page*/
+     .content{
+       padding: 10px;
+     }
+      /*For the styling of the links in the card*/
+    .attribution a {
+       color: hsl(0, 0%, 0%);
+       align-items: center;
+       }
+       
+       /*Image size set to be responsive on both mobile and web based platform*/
+       img{
+         height: 300px;
+         width: 300px;
+         border-radius: 12px;
+       }
+    /*Styling of everything inside the body*/
+    body{
+     background-color: hsl(228, 40%, 57%);
+     text-align: center;
+     color:hsl(0, 0%, 100%);
+     font-family: 'Outfit', sans-serif;
+    }
+    h3{
+      color: hsl(0, 0%, 0%);
+      font-size: 20px;
+    }
+    p{
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="attribution" id="card">
+    <div class="content">
+      <img src="C:\Users\khuth\Desktop\Projects2\Qr Code\images\image-qr-code.png" alt="">
+   <h3> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Thendo-T">Thendo</a>.</h3>
+    <p>Thank you for visiting this webpage. <br>please scan the QR code above to find documented information about this project
+    and
+    where to
+    find more projects similar or even better than this.</p>
+    </div>
+  </div>
+</body>
+</html>
